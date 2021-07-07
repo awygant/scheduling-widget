@@ -1,0 +1,9 @@
+<ul class="locations__list">
+  {{#each model.data as |location|}}
+    <Location
+      @name={{location.attributes.name}}
+      @phone={{location.attributes.phone}}
+      @geolocation={{location.attributes.geolocation}}
+    />
+  {{/each}}
+</ul>

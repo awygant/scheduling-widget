@@ -5,6 +5,9 @@ module.exports = function(environment) {
     modulePrefix: 'scheduling-widget',
     environment,
     rootURL: '/',
+    hostURL: 'https://johnny-appleseed.clientsecure.me',
+    clinicianID: '2',
+    clinicName: 'The Therapy Center',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

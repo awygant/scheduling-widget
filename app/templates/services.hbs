@@ -1,0 +1,9 @@
+<ul class="services__list">
+  {{#each model.data as | service|}}
+    <Service
+      @title={{service.attributes.description}}
+      @duration={{service.attributes.duration}}
+      @id={{service.id}}
+    />
+  {{/each}}
+</ul>
